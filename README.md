@@ -5,3 +5,4 @@ FEATURES
 - Descriptions and photos of 10 beautiful tourist spots  
 - Simple and responsive layout  
 
+You can view my project here: https://kwawisaa.github.io/Travel_Blog/
