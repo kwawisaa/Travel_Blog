@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e2eb;
+    padding: 20px;
+    line-height: 1.8rem;
+    font-family: "Playfair Display";
+}
+
+
+.title {
+    text-align: center;
+    background-color: #4f4e60; 
+    color: #E8E6F3;
+    padding: 20px;
+    line-height: 3rem;
+    border-radius: 12px;
+    margin: 0 auto 40px; 
+}
+
+
+#introduction, #conclusion{
+    margin: 0 auto 40px;
+    text-align: justify;
+    font-size: 19px;
+    color: #2e2e38;
+}
+
+
+.blog-container {
+    columns: 2 250px;
+    margin: 0 auto;
+}
+
+.places {
+    text-align: justify;
+}
+
+
+.sections {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    background-color: #d5d5dc;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin: 3% 0 auto;
+    padding: 3%;
+ 
+}
+
+.sections img {
+    width: 60%; 
+    height: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    width: 100%;            
+    margin: 0;              
+    padding: 10px 0; 
+    background-color: #3c3c4a;    
+    color: #E8E6F3;
+    text-align: center;    
+    border-radius: 5px 5px 0 0; 
+}
+
+#conclusion{
+    margin-top: 3%;
+}
+
+.references{
+    margin: 0;
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    color:rgb(107, 107, 80); 
+}
+
+label{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: #2e2e38;
+}
+
+.links:hover{
+    color:brown;
+}
+
+#xoxo{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #3c3c4a; 
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f3e7;
+    color: #3c3c4a;
+    text-align: center;
+}
+
+.socials{
+    text-decoration: none;
+    color: rgb(107, 107, 80); 
+}
+
+.socials:hover{
+    color: blue;
+}
